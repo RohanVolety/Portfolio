@@ -30,20 +30,7 @@ const Banner = () => {
             />
           </motion.div>
           <div className="text-[15px] lg:text-[22px]">
-            <motion.p
-              variants={fadeIn("up", 0.5)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-4"
-            >
-              Experience in{" "}
-              <span className="font-bold text-blue-800">Backend </span>
-              and{" "}
-              <span className="font-bold text-blue-800">
-                Cloud Technologies
-              </span>
-            </motion.p>
+           
           </div>
           <motion.div
             variants={fadeIn("up", 0.6)}
